@@ -1,2 +1,9 @@
+import random
 def randintlist(len, ceiling):
-    print random.randintlist(0, 1)
+    list = []
+    for i in range(len):
+        number = random.randint(0, ceiling)
+        list.append(number)
+    return list
+
+print(randintlist(5, 82))

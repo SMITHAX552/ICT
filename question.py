@@ -9,5 +9,5 @@ while finish == False:
         print("no")
         finish = True
     else:
-        print("I don't understand you, sorry!")
+        print()
     # Do that.
